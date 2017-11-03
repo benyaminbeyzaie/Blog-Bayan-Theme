@@ -1,0 +1,439 @@
+@font-face {
+    font-family: 'yekan';
+    src:url('http://bayanbox.ir/download/8020667983941976736/Sahel.eot') format('eot'),    
+          url('http://bayanbox.ir/download/7773827061066112290/Sahel.woff') format('woff'),
+          url('http://bayanbox.ir/download/2175314833068407455/Sahel.ttf') format('truetype'); 
+}
+@font-face {
+    font-family: 'nazanin';
+    src:url('') format('eot'),    
+          url('http://bayanbox.ir/download/5062088864610695559/775b712c01cdf4eb7f15d9180567345060f700291901931.otf') format('woff'),
+          url('http://bayanbox.ir/download/8389528079117118981/775b712c01cdf4eb7f15d9180567345060f700291901931.ttf') format('truetype'); 
+}
+* {
+	font-family: yekan,'yekan',tahoma;
+}
+.post img{
+	max-width: 100%;
+	height: inherit;
+}
+body a {
+	text-decoration: none;
+	color: #16A1E7;
+}
+body{
+	text-decoration: none;
+	font-size: 14px;
+	background: #f1f1f1;
+}
+h1,h2,h3 {
+	margin: 0;
+	padding: 0;
+	font-family: yekan,'yekan',tahoma;
+	font-weight: 900;
+}
+audio {
+	max-width: 98%;
+	height: inherit;
+}
+video {
+	max-width: 98%;
+	height: inherit;
+}
+.wrp {
+	width: 800px;
+	margin: auto;
+	direction: rtl;
+}
+/*----main-box----*/
+.main-box {
+	margin: 10px 0px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	overflow: auto;
+	padding: 10px 20px;
+}
+/*----header----*/
+.header {
+	text-align: center;
+	margin-top: 20px;
+}
+.blog-image {
+	border-radius: 100%;
+	border: 2px solid #ededed;
+	width: 150px;
+	height: 150px;
+}
+.short-des {
+	color: #000000;
+}
+/*----menu----*/
+.menu {
+	border-top: 2px solid #ededed;
+	border-bottom: 2px solid #ededed;
+	margin: 15px 0px;
+	overflow: auto;
+}
+.menu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+}
+.menu a{
+	color: #454545;
+	font-size: 15px;
+	padding: 9px;
+	display: block;
+}
+.menu a:hover{
+	color: #16A1E7;
+}
+.menu a.selected{
+	color: #16A1E7;
+}
+/*----post----*/
+.post {
+	padding: 10px 0px;
+	border-bottom: 1px solid #ededed;
+	font-size: 16px;
+	font-weight: 800;
+}
+/*----post-detail----*/
+.post-detail {
+	overflow: auto;
+	font-weight: 200;
+}
+.post-author {
+	color: #8c8c8c;
+	padding-left: 6px;
+}
+.edame-matlab {
+	padding-right: 8px;
+	border-right: 1px solid #ededed;
+}
+.post-cm {
+	float: left;
+	padding-right: 8px;
+	border-right: 1px solid #ededed;
+}
+.rate-box {
+	float: left;
+	padding-left: 8px;
+}
+/*post-tags*/
+.post-tags {
+	margin-top: 10px;
+}
+/*----comment-----*/
+.comment-count-box {
+	background: #fff;
+	border: 1px solid #ededed;
+	text-align: center;
+	margin-top: 10px;
+	padding: 10px 0px;
+	font-size: 20px;
+}
+.comment-count-box a{
+	color: #454545;
+}
+.cm-body {
+	background: #fff;
+	border: 1px solid #ededed;
+	margin-top: 25px;
+	width: 97.5%;
+	margin-right: 2.5%;
+	font-size: 16px;
+}
+.cm-avatar {
+	margin: -14px;
+	margin-top: -10px;
+	float: right;
+}
+.cm-av {
+	width: 50px;
+	border-radius: 100%;
+	border: 2px solid #ebebeb;
+	box-shadow: 0px 0px 5px #ededed;
+}
+.cm-det {
+	background: #f2f2f2;
+	float: left;
+	height: 40px;
+	box-shadow: 0px 0px 5px #ededed;
+}
+.cm-web {
+	float: left;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+.cm-date {
+	float: left;
+	padding-left: 8px;
+}
+.cm-date a{
+	color: #8c8c8c;
+}
+.comment-details {
+	padding: 4px;
+	background: #fafafa;
+	border-bottom: 1px solid #ededed;
+	margin-right: 20px;
+	box-shadow: 0px 0px 5px #ededed;
+	overflow: auto;
+}
+.cm-name {
+	margin-right: 20px;
+}
+.comment-matn {
+	padding: 15px;
+	line-height: 1.8em;
+	clear: both;
+}
+.comment-reply {
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 7px;
+	background: #D3ECFF;
+	margin-bottom: 10px;
+	border: 1px solid #ededed;
+	line-height: 2em;
+	border-radius: 10px;
+	color: #000000;
+}
+.comment-reply p{
+	margin: 0px;
+	max-width: 94%;
+}
+.reply-av {
+	width: 40px;
+	border-radius: 100%;
+	border: 1px solid #ebebeb;
+	margin: -20px;
+	float: left;
+	box-shadow: 0px 0px 5px #ededed;
+}
+.comment-add-form {
+	background: #fcfcfc;
+	border: 1px solid #ededed;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding: 5px;
+}
+/*cm-form*/
+.bComForm .sendbutton.hasCheckbox {
+	margin-top: 10px;
+	text-align: center;
+}
+.bComForm .sendbutton {
+	width: 90%;
+	margin-top: 50px;
+	float:none;
+	margin-right: 5%;
+	margin-left:5%;
+}
+/*--left--*/
+.left {
+	width: 100%;
+	margin-top: 40px;
+}
+.archive a.selected {
+	color: #ade03e;
+}
+.title-left {
+	margin-top: -20px;
+	text-align: center;
+	font-size: 20px;
+	background: #f3f3f3;
+	padding: 5px 0px;
+	cursor: default;
+	color: #000000;
+}
+.title-center {
+	
+}
+.left-back {
+	margin-bottom: 7px;
+	margin-top: 20px;
+
+}
+.left-input {
+	padding: 8px 5px 5px;
+}
+.left-back a1{
+	float: right;
+}
+.left-back a2{
+	float: left;
+}
+/*stat*/
+.left-back3 {
+	background: #fff;
+}
+.stat-back {
+	background: #fff;
+    	padding: 5px 8px;
+	margin-bottom: 2px;
+	border-radius: 4px;
+	cursor: default;
+}
+.stat-value {
+	float: left;
+	display: inline-block;
+}
+/*about-me*/
+.about-me {
+	margin-bottom: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.blog-titlee {
+	width: 140px;
+	margin-top: -15px;
+}
+.my-av {
+	width: 20%;
+	height: inherit;
+	border: 2px solid #ebebeb;
+	border-radius: 100%;
+	box-shadow: 0px 0px 5px #ededed;
+}
+.description-web {
+	line-height: 1.6em;
+	padding: 10px;
+}
+
+/*recent-comment*/
+.recent-comment {
+	direction: ltr;
+	margin-bottom: 6px;
+	clear: both;
+	overflow: auto;
+}
+.cm-matnn {
+	direction: rtl;
+	line-height: 1.8em;
+	background: #f7f7f7;
+	padding: 2%;
+	width: 81.5%;
+}
+.recent-comment a{
+	color: #0f0f0f;
+}
+.cm-matnn:hover{
+	background: #f3f3f3;
+	cursor: pointer;
+}
+.recent-comment-av-img {
+	float: right;
+	width: 12%;
+	border: 1px solid #dbdbdb;
+	border-radius: 3px;
+}
+/*مطالب محبوب*/
+.rate--post {
+	text-align: center;
+	color: #2e2e2e;
+	padding: 2px;
+	background: #fff;
+	border-radius: 4px;
+	margin-bottom: 2px;
+	line-height: 1.8em;
+}
+.rate--post:hover{
+	background: #f3f3f3;
+}
+a.selected .rate--post {
+	background: #3b3b3b;
+	color: #fff;
+}
+/*تگ ها*/
+.tagss {
+	display: inline-block;
+}
+.tagss a{
+	padding: 3px 5px;
+	background: #fff;
+	display: table-cell;
+	border-radius: 3px;
+	color: #5e5e5e;
+	border: 1px solid #e3e3e3;
+	transition-duration: .3s;
+}
+.tagss a:hover{
+	background: #16A1E7;
+	color: #fff;
+}
+.tagss a.selected{
+	background: #3b3b3b;
+	color: #fff;
+}
+/*----page----*/
+.pagingation {
+	margin-top: 10px;
+}
+.pagePrev {
+	float: right;
+}
+.pageNext {
+	float: left;
+}
+/*----fot----*/
+.fotter {
+	background: #e8e8e8;
+	padding: 8px;
+	clear: both;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	top: auto;
+	direction: ltr;
+	border-top: 1px solid #ededed;
+}
+.fotter .erfan{
+	padding: 4px;
+	transition-duration: .5s;
+	background: #16A1E7;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.fotter .erfan:hover{
+	background: #128cca;
+}
+.bayan {
+	float: right;
+	color: #000000;
+}
+.bayan a {
+	color: #000000;
+}
+.bayan a:hover{
+	color: #00bcff;
+}
+@media only screen and (max-width: 768px) {
+	.wrp {
+		width: 100%;
+	}
+	.main-box {
+		margin-right: 2%;
+		margin-left: 2%;
+	}
+	.menu li {
+		display: block;
+	}
+	.comment-reply {
+		width: 80%;
+	}
+	.comment-reply p{
+		max-width: 85%;
+	}
+}
+.post-matn {
+font-weight: 200;
+}
